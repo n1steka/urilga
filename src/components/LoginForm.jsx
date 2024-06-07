@@ -14,34 +14,28 @@ export default function LoginForm() {
       }, 3000);
       return toast.success("Сайн байна уу Өсөхжаргал багшаа");
     }
-    if (phone === "95598999" && password === "8999") {
-      localStorage.setItem("name", "Мөнх");
+    if (phone === "99856545" && password === "6545") {
+      localStorage.setItem("name", "Баярсайхан");
       setTimeout(() => {
         router.push("/");
       }, 3000);
       return toast.success("Сайн байна уу Өсөхжаргал багшаа");
     }
-    if (phone === "88054406" && password === "4406") {
-      localStorage.setItem("name", "Өсөхжаргал");
+    if (phone === "99995509" && password === "5509") {
+      localStorage.setItem("name", "Ганзориг");
       setTimeout(() => {
         router.push("/");
       }, 3000);
       return toast.success("Сайн байна уу Өсөхжаргал багшаа");
     }
-    if (phone === "88054406" && password === "4406") {
-      localStorage.setItem("name", "Өсөхжаргал");
+    if (phone === "88008108" && password === "8108") {
+      localStorage.setItem("name", "Баттөр ");
       setTimeout(() => {
         router.push("/");
       }, 3000);
       return toast.success("Сайн байна уу Өсөхжаргал багшаа");
     }
-    if (phone === "88054406" && password === "4406") {
-      localStorage.setItem("name", "Өсөхжаргал");
-      setTimeout(() => {
-        router.push("/");
-      }, 3000);
-      return toast.success("Сайн байна уу Өсөхжаргал багшаа");
-    }
+
     toast.error("Утасны дугаар эсвэл нууц үг буруу байна");
   };
 

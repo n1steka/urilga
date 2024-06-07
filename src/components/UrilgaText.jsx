@@ -6,6 +6,7 @@ import Image from "next/image";
 export default function UrilgaText() {
   const [name, setName] = useState("");
   const router = useRouter();
+
   useEffect(() => {
     // Fetch data from localStorage during client-side rendering
     const storedName = localStorage.getItem("name");
@@ -33,9 +34,10 @@ export default function UrilgaText() {
           Хүндэт багш {name},
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif">
-          ...... таныг Д.Баттөр багштай 2020-2024 оны "Програм хангамж" ангийн
-          төгсөгчдөд диплом, энгэрийн тэмдэг гардуулах үйл ажиллагаа, төгсөлийн
-          баярын үйл ажиллагаанд хүрэлцэн ирэхийг урьж байна.
+          ...... таныг Д.Баттөр багштай 2020-2024 оны &quot;Програм
+          хангамж&quot; ангийн төгсөгчдөд диплом, энгэрийн тэмдэг гардуулах үйл
+          ажиллагаа, төгсөлийн баярын үйл ажиллагаанд хүрэлцэн ирэхийг урьж
+          байна.
         </p>
       </div>
     </div>
