@@ -94,7 +94,7 @@ export default function LoginForm() {
                   title="Ajimon"
                   className="text-green-500 hover:text-green-700 ml-2"
                 >
-                  Хөгжүүлэгч Хөөрхөн Мөнхүүш
+                  ххэ
                 </a>
               </span>
             </div>
