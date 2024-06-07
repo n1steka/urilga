@@ -42,12 +42,7 @@ export default function LoginForm() {
   return (
     <div>
       <Toaster />
-      <div
-        className="bg-no-repeat  relative bg-[url(https://as1.ftcdn.net/v2/jpg/07/61/49/50/1000_F_761495055_Yfns2CQILs0xgLeClnEca8BAlv7AynhR.jpg)] bg-cover bg-center bg-bg-no-repeat"
-        style={{
-          background: "",
-        }}
-      >
+      <div className="bg-no-repeat  relative bg-[url(https://as1.ftcdn.net/v2/jpg/07/61/49/50/1000_F_761495055_Yfns2CQILs0xgLeClnEca8BAlv7AynhR.jpg)] bg-cover bg-center bg-bg-no-repeat">
         <div className="absolute bg-gradient-to-b  opacity-75 inset-0 z-0 "></div>
         <div className="min-h-screen flex flex-col justify-center items-center p-2">
           <div className="p-6 sm:p-10 md:p-16 lg:p-24 w-full max-w-md z-10 bg-white rounded-2xl shadow-lg">
