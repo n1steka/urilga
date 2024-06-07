@@ -47,10 +47,17 @@ export default function Home() {
       <Header />
       <UrilgaText />
       <Counter newYear={ognoo} />
-      <span className="w-full  flex justify-center   p-2 text-red-400">
-        Хэрвээ та урилгыг хүлээн авч байгаа бол хариу мэдэгдэж и-мэйл хаягаа
-        оруулан байршлийг авна уу !!
-      </span>
+      {s ? (
+        <span className="w-full  flex justify-center   p-2 text-blue-500">
+          Та гоё шүү
+        </span>
+      ) : (
+        <span className="w-full  flex justify-center   p-2 text-red-400">
+          Хэрвээ та урилгыг хүлээн авч байгаа бол хариу мэдэгдэж и-мэйл хаягаа
+          оруулан байршлийг авна уу !!
+        </span>
+      )}
+
       <div className="flex justify-center my-4">
         <div className="flex gap-4">
           <input
@@ -70,13 +77,15 @@ export default function Home() {
           </button>
         </div>
       </div>
-      {loading && (
+      {loading ? (
         <div className="my-4">
           <h1 className="text-center text-3xl font-semibold text-slate-100 mb-2 bg-sky-900">
             Байршил
           </h1>
           <Location />
         </div>
+      ) : (
+        <div className=" h-[300px]"></div>
       )}
     </div>
   );

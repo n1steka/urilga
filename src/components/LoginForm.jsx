@@ -19,21 +19,21 @@ export default function LoginForm() {
       setTimeout(() => {
         router.push("/");
       }, 3000);
-      return toast.success("Сайн байна уу Өсөхжаргал багшаа");
+      return toast.success("Сайн байна уу Баярсайхан багшаа");
     }
     if (phone === "99995509" && password === "5509") {
       localStorage.setItem("name", "Ганзориг");
       setTimeout(() => {
         router.push("/");
       }, 3000);
-      return toast.success("Сайн байна уу Өсөхжаргал багшаа");
+      return toast.success("Сайн байна уу Ганзориг багшаа");
     }
     if (phone === "88008108" && password === "8108") {
       localStorage.setItem("name", "Баттөр ");
       setTimeout(() => {
         router.push("/");
       }, 3000);
-      return toast.success("Сайн байна уу Өсөхжаргал багшаа");
+      return toast.success("Сайн байна уу Баттөр багшаа");
     }
 
     toast.error("Утасны дугаар эсвэл нууц үг буруу байна");
@@ -43,10 +43,9 @@ export default function LoginForm() {
     <div>
       <Toaster />
       <div
-        className="bg-no-repeat bg-cover bg-center relative"
+        className="bg-no-repeat  relative bg-[url(https://as1.ftcdn.net/v2/jpg/07/61/49/50/1000_F_761495055_Yfns2CQILs0xgLeClnEca8BAlv7AynhR.jpg)] bg-cover bg-center bg-bg-no-repeat"
         style={{
-          backgroundImage:
-            "url(https://as1.ftcdn.net/v2/jpg/07/61/49/50/1000_F_761495055_Yfns2CQILs0xgLeClnEca8BAlv7AynhR.jpg)",
+          background: "",
         }}
       >
         <div className="absolute bg-gradient-to-b  opacity-75 inset-0 z-0 "></div>
