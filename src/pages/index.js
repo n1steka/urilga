@@ -48,8 +48,8 @@ export default function Home() {
       <UrilgaText />
       <Counter newYear={ognoo} />
       <span className="w-full  flex justify-center   p-2 text-red-400">
-        Хэрвээ та урилгын хүлээн авч байгаа бол хариу мэдэгдэж и-мэйл хаягаа
-        оруулан байршилийг авна уу !!
+        Хэрвээ та урилгыг хүлээн авч байгаа бол хариу мэдэгдэж и-мэйл хаягаа
+        оруулан байршлийг авна уу !!
       </span>
       <div className="flex justify-center my-4">
         <div className="flex gap-4">
