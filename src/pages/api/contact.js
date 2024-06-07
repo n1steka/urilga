@@ -38,7 +38,7 @@ export default async function handler(req, res) {
         subject: "Confirmation", // Correct usage of subject variable
         html: `
           <img src="https://scontent.fuln1-1.fna.fbcdn.net/v/t39.30808-6/397816326_722808709889614_3297244859647132754_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=5TgvHzDmyQcAX9RZs4n&_nc_ht=scontent.fuln1-1.fna&oh=00_AfAP1kB7ptRUFeenzHnd7j7zvAGiIeOw-n6jRl59AShEJA&oe=65C86C74" />
-          <h2>Сайн байна уу байгш: ${name}</h2>
+          <h2>Сайн байна уу багш: ${name}</h2>
           <p>Урилга хүлээн авсан танд баярллаа хөөрхөн мөнхүүш ❤😍  </p>
         `,
       };
